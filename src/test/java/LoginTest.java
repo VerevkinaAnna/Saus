@@ -1,10 +1,8 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
-
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-
 
 public class LoginTest extends BaseTest {
     @Test
@@ -21,7 +19,6 @@ public class LoginTest extends BaseTest {
 
         String titleName = browser.findElement(By.cssSelector("[data-test='title']")).getText();
         assertEquals(titleName,"Products","Неверный заголовок");
-
     }
 
     @Test
