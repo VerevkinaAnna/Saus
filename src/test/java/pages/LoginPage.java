@@ -31,4 +31,3 @@ public class LoginPage extends BasePage {
         return driver.findElement(errorMsg).getText();
     }
 }
-
