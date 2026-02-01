@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class LoginTest extends BaseTest {
+public class TestLogin extends BaseTest {
     @Test(invocationCount = 1, priority = 2, enabled = true)
     public void correctLogin() {
         loginPage.open();
